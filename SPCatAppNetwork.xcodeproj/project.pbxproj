@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E864EDB1BE5424600793C5A /* SPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E864EDA1BE5424600793C5A /* SPNetwork.m */; };
 		3E9483D61BE3EC3200A9B6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9483D51BE3EC3200A9B6BB /* main.m */; };
 		3E9483D91BE3EC3200A9B6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9483D81BE3EC3200A9B6BB /* AppDelegate.m */; };
 		3E9483DC1BE3EC3200A9B6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9483DB1BE3EC3200A9B6BB /* ViewController.m */; };
 		3E9483DF1BE3EC3200A9B6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9483DD1BE3EC3200A9B6BB /* Main.storyboard */; };
 		3E9483E11BE3EC3200A9B6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9483E01BE3EC3200A9B6BB /* Assets.xcassets */; };
 		3E9483E41BE3EC3200A9B6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9483E21BE3EC3200A9B6BB /* LaunchScreen.storyboard */; };
+		3E9483EC1BE3F87E00A9B6BB /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9483EB1BE3F87E00A9B6BB /* apple.png */; };
+		3EA9DA7B1BE6086E0093277C /* loader3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3EA9DA7A1BE6086E0093277C /* loader3.gif */; };
+		3EA9DA7D1BE60BFE0093277C /* No_image_available.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EA9DA7C1BE60BFE0093277C /* No_image_available.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E864ED91BE5424600793C5A /* SPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPNetwork.h; path = SPClasses/SPModel/SPNetwork.h; sourceTree = "<group>"; };
+		3E864EDA1BE5424600793C5A /* SPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPNetwork.m; path = SPClasses/SPModel/SPNetwork.m; sourceTree = "<group>"; };
 		3E9483D11BE3EC3100A9B6BB /* SPCatAppNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPCatAppNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9483D51BE3EC3200A9B6BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E9483D71BE3EC3200A9B6BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E9483D81BE3EC3200A9B6BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E9483DA1BE3EC3200A9B6BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E9483DB1BE3EC3200A9B6BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E9483DA1BE3EC3200A9B6BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SPClasses/SPController/ViewController.h; sourceTree = "<group>"; };
+		3E9483DB1BE3EC3200A9B6BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SPClasses/SPController/ViewController.m; sourceTree = "<group>"; };
 		3E9483DE1BE3EC3200A9B6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E9483E01BE3EC3200A9B6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E9483E31BE3EC3200A9B6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E9483E51BE3EC3200A9B6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9483EB1BE3F87E00A9B6BB /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		3EA9DA7A1BE6086E0093277C /* loader3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader3.gif; sourceTree = "<group>"; };
+		3EA9DA7C1BE60BFE0093277C /* No_image_available.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = No_image_available.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E864EDC1BE5425000793C5A /* SPModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E864ED91BE5424600793C5A /* SPNetwork.h */,
+				3E864EDA1BE5424600793C5A /* SPNetwork.m */,
+			);
+			name = SPModel;
+			sourceTree = "<group>";
+		};
+		3E864EDD1BE542E800793C5A /* SPController */ = {
+			isa = PBXGroup;
+			children = (
+				3E9483DA1BE3EC3200A9B6BB /* ViewController.h */,
+				3E9483DB1BE3EC3200A9B6BB /* ViewController.m */,
+			);
+			name = SPController;
+			sourceTree = "<group>";
+		};
+		3E864EDE1BE5430500793C5A /* SPAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3E9483D71BE3EC3200A9B6BB /* AppDelegate.h */,
+				3E9483D81BE3EC3200A9B6BB /* AppDelegate.m */,
+			);
+			name = SPAppDelegate;
+			sourceTree = "<group>";
+		};
+		3E864EDF1BE5432000793C5A /* SPConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				3E9483E01BE3EC3200A9B6BB /* Assets.xcassets */,
+				3E9483E51BE3EC3200A9B6BB /* Info.plist */,
+			);
+			name = SPConfiguration;
+			sourceTree = "<group>";
+		};
 		3E9483C81BE3EC3100A9B6BB = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +103,11 @@
 		3E9483D31BE3EC3100A9B6BB /* SPCatAppNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				3E9483D71BE3EC3200A9B6BB /* AppDelegate.h */,
-				3E9483D81BE3EC3200A9B6BB /* AppDelegate.m */,
-				3E9483DA1BE3EC3200A9B6BB /* ViewController.h */,
-				3E9483DB1BE3EC3200A9B6BB /* ViewController.m */,
-				3E9483DD1BE3EC3200A9B6BB /* Main.storyboard */,
-				3E9483E01BE3EC3200A9B6BB /* Assets.xcassets */,
-				3E9483E21BE3EC3200A9B6BB /* LaunchScreen.storyboard */,
-				3E9483E51BE3EC3200A9B6BB /* Info.plist */,
+				3E864EDE1BE5430500793C5A /* SPAppDelegate */,
+				3E864EDD1BE542E800793C5A /* SPController */,
+				3E864EDC1BE5425000793C5A /* SPModel */,
+				3E9483ED1BE41D3700A9B6BB /* SPView */,
+				3E864EDF1BE5432000793C5A /* SPConfiguration */,
 				3E9483D41BE3EC3200A9B6BB /* Supporting Files */,
 			);
 			path = SPCatAppNetwork;
@@ -74,9 +116,21 @@
 		3E9483D41BE3EC3200A9B6BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E9483EB1BE3F87E00A9B6BB /* apple.png */,
+				3EA9DA7A1BE6086E0093277C /* loader3.gif */,
+				3EA9DA7C1BE60BFE0093277C /* No_image_available.jpg */,
 				3E9483D51BE3EC3200A9B6BB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9483ED1BE41D3700A9B6BB /* SPView */ = {
+			isa = PBXGroup;
+			children = (
+				3E9483DD1BE3EC3200A9B6BB /* Main.storyboard */,
+				3E9483E21BE3EC3200A9B6BB /* LaunchScreen.storyboard */,
+			);
+			name = SPView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +192,9 @@
 			files = (
 				3E9483E41BE3EC3200A9B6BB /* LaunchScreen.storyboard in Resources */,
 				3E9483E11BE3EC3200A9B6BB /* Assets.xcassets in Resources */,
+				3EA9DA7B1BE6086E0093277C /* loader3.gif in Resources */,
+				3E9483EC1BE3F87E00A9B6BB /* apple.png in Resources */,
+				3EA9DA7D1BE60BFE0093277C /* No_image_available.jpg in Resources */,
 				3E9483DF1BE3EC3200A9B6BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +209,7 @@
 				3E9483DC1BE3EC3200A9B6BB /* ViewController.m in Sources */,
 				3E9483D91BE3EC3200A9B6BB /* AppDelegate.m in Sources */,
 				3E9483D61BE3EC3200A9B6BB /* main.m in Sources */,
+				3E864EDB1BE5424600793C5A /* SPNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +356,7 @@
 				3E9483EA1BE3EC3200A9B6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
